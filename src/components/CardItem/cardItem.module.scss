@@ -1,0 +1,83 @@
+.card-item {
+  display: flex;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  width: 30%;
+  height: 50%;
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  background: white;
+}
+
+.card-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: #333;
+}
+
+.card-original-title {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 12px 0;
+  font-style: italic;
+}
+
+.card-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.card-kind,
+.card-score,
+.card-episodes,
+.card-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  background: #f5f5f5;
+}
+
+.card-score {
+  background: #fff8e1;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.card-link:hover {
+  background: #0056b3;
+}
