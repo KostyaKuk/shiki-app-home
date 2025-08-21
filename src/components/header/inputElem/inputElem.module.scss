@@ -1,0 +1,39 @@
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  color: #333;
+
+  &::placeholder {
+    color: #999;
+  }
+}
+
+.search-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  background: rgb(112, 132, 140);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+
+  &:hover {
+    background: rgb(80, 100, 108);
+  }
+}

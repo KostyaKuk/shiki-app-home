@@ -2,13 +2,12 @@
   display: flex;
   border: 1px solid #e1e1e1;
   border-radius: 8px;
-  width: 30%;
-  height: 50%;
+  height: auto;
   overflow: hidden;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
-  background: white;
+  background: rgb(250, 242, 242);
 }
 
 .card-item:hover {

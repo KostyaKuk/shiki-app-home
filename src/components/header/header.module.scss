@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'OPFont';
+  src: url('../../assets/fonts/opfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  background-color: rgba(48, 50, 56, 0.714);
+  padding: 15px;
+  border-radius: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-logo {
+  flex: 0 0 20%;
+  min-width: 0; 
+}
+
+.glyph {
+  font-family: 'OPFont', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.global-search {
+  flex: 0 0 60%;
+  min-width: 0; 
+}
